@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-05T07:43:02+00:00",
+  "updatedAt": "2026-09-06T07:57:22+00:00",
   "source": "https://api.npmjs.org/downloads/range/",
-  "knownTotal": 1322,
-  "complete": false,
+  "knownTotal": 1763,
+  "complete": true,
   "packages": [
     {
       "name": "pi-subtask",
@@ -69,15 +69,19 @@
           "day": "2026-09-03"
         },
         {
-          "downloads": 0,
+          "downloads": 2,
           "day": "2026-09-04"
         },
         {
-          "downloads": 0,
+          "downloads": 3,
           "day": "2026-09-05"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-06"
         }
       ],
-      "total": 704
+      "total": 709
     },
     {
       "name": "pi-voice-mode",
@@ -108,15 +112,19 @@
           "day": "2026-09-03"
         },
         {
-          "downloads": 0,
+          "downloads": 2,
           "day": "2026-09-04"
         },
         {
-          "downloads": 0,
+          "downloads": 3,
           "day": "2026-09-05"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-06"
         }
       ],
-      "total": 179
+      "total": 184
     },
     {
       "name": "@liushiyumathxjtu/minimax-statusline",
@@ -505,6 +513,10 @@
         {
           "downloads": 0,
           "day": "2026-09-05"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-06"
         }
       ],
       "total": 155
@@ -534,15 +546,19 @@
           "day": "2026-09-03"
         },
         {
-          "downloads": 0,
+          "downloads": 2,
           "day": "2026-09-04"
         },
         {
-          "downloads": 0,
+          "downloads": 1,
           "day": "2026-09-05"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-06"
         }
       ],
-      "total": 144
+      "total": 147
     },
     {
       "name": "lan-artifacts-pi",
@@ -593,15 +609,19 @@
           "day": "2026-09-03"
         },
         {
-          "downloads": 0,
+          "downloads": 1,
           "day": "2026-09-04"
         },
         {
-          "downloads": 0,
+          "downloads": 2,
           "day": "2026-09-05"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-06"
         }
       ],
-      "total": 140
+      "total": 143
     },
     {
       "name": "pi-qoder-account-provider",
@@ -620,15 +640,19 @@
           "day": "2026-09-03"
         },
         {
-          "downloads": 0,
+          "downloads": 3,
           "day": "2026-09-04"
         },
         {
-          "downloads": 0,
+          "downloads": 7,
           "day": "2026-09-05"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-06"
         }
       ],
-      "total": 0
+      "total": 10
     },
     {
       "name": "pi-debug-mode",
@@ -636,9 +660,22 @@
       "color": "#f2e6c9",
       "version": "0.1.3",
       "created": "2026-09-04",
-      "status": "not-available",
-      "downloads": [],
-      "total": 0
+      "status": "available",
+      "downloads": [
+        {
+          "downloads": 387,
+          "day": "2026-09-04"
+        },
+        {
+          "downloads": 28,
+          "day": "2026-09-05"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-06"
+        }
+      ],
+      "total": 415
     }
   ]
 }
