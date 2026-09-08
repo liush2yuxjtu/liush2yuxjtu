@@ -1,151 +1,14 @@
 {
-  "updatedAt": "2026-09-08T08:09:19+00:00",
+  "updatedAt": "2026-09-08T10:00:50+00:00",
+  "cutoffDate": "2026-09-07",
   "source": "https://api.npmjs.org/downloads/range/",
   "knownTotal": 1786,
-  "complete": true,
+  "complete": false,
   "packages": [
-    {
-      "name": "pi-subtask",
-      "account": "liushiyumathxjtu",
-      "color": "#d8ff65",
-      "version": "0.1.4",
-      "created": "2026-08-21",
-      "status": "available",
-      "downloads": [
-        {
-          "downloads": 455,
-          "day": "2026-08-21"
-        },
-        {
-          "downloads": 40,
-          "day": "2026-08-22"
-        },
-        {
-          "downloads": 13,
-          "day": "2026-08-23"
-        },
-        {
-          "downloads": 7,
-          "day": "2026-08-24"
-        },
-        {
-          "downloads": 1,
-          "day": "2026-08-25"
-        },
-        {
-          "downloads": 6,
-          "day": "2026-08-26"
-        },
-        {
-          "downloads": 2,
-          "day": "2026-08-27"
-        },
-        {
-          "downloads": 15,
-          "day": "2026-08-28"
-        },
-        {
-          "downloads": 10,
-          "day": "2026-08-29"
-        },
-        {
-          "downloads": 1,
-          "day": "2026-08-30"
-        },
-        {
-          "downloads": 150,
-          "day": "2026-08-31"
-        },
-        {
-          "downloads": 0,
-          "day": "2026-09-01"
-        },
-        {
-          "downloads": 4,
-          "day": "2026-09-02"
-        },
-        {
-          "downloads": 0,
-          "day": "2026-09-03"
-        },
-        {
-          "downloads": 2,
-          "day": "2026-09-04"
-        },
-        {
-          "downloads": 3,
-          "day": "2026-09-05"
-        },
-        {
-          "downloads": 6,
-          "day": "2026-09-06"
-        },
-        {
-          "downloads": 0,
-          "day": "2026-09-07"
-        },
-        {
-          "downloads": 0,
-          "day": "2026-09-08"
-        }
-      ],
-      "total": 715
-    },
-    {
-      "name": "pi-voice-mode",
-      "account": "liushiyumathxjtu",
-      "color": "#6ee7d8",
-      "version": "0.1.0",
-      "created": "2026-08-30",
-      "status": "available",
-      "downloads": [
-        {
-          "downloads": 160,
-          "day": "2026-08-30"
-        },
-        {
-          "downloads": 11,
-          "day": "2026-08-31"
-        },
-        {
-          "downloads": 6,
-          "day": "2026-09-01"
-        },
-        {
-          "downloads": 2,
-          "day": "2026-09-02"
-        },
-        {
-          "downloads": 0,
-          "day": "2026-09-03"
-        },
-        {
-          "downloads": 2,
-          "day": "2026-09-04"
-        },
-        {
-          "downloads": 3,
-          "day": "2026-09-05"
-        },
-        {
-          "downloads": 3,
-          "day": "2026-09-06"
-        },
-        {
-          "downloads": 0,
-          "day": "2026-09-07"
-        },
-        {
-          "downloads": 0,
-          "day": "2026-09-08"
-        }
-      ],
-      "total": 187
-    },
     {
       "name": "@liushiyumathxjtu/minimax-statusline",
       "account": "liushiyumathxjtu",
-      "color": "#ffad5c",
+      "repository": "git+https://github.com/liush2yuxjtu/minimax-statusline.git",
       "version": "0.2.0",
       "created": "2026-06-03",
       "status": "available",
@@ -537,65 +400,17 @@
         {
           "downloads": 0,
           "day": "2026-09-07"
-        },
-        {
-          "downloads": 0,
-          "day": "2026-09-08"
         }
       ],
-      "total": 157
-    },
-    {
-      "name": "pi-strict-ask-mode",
-      "account": "liushiyumathxjtu",
-      "color": "#f47777",
-      "version": "0.1.0",
-      "created": "2026-08-31",
-      "status": "available",
-      "downloads": [
-        {
-          "downloads": 133,
-          "day": "2026-08-31"
-        },
-        {
-          "downloads": 11,
-          "day": "2026-09-01"
-        },
-        {
-          "downloads": 0,
-          "day": "2026-09-02"
-        },
-        {
-          "downloads": 0,
-          "day": "2026-09-03"
-        },
-        {
-          "downloads": 2,
-          "day": "2026-09-04"
-        },
-        {
-          "downloads": 1,
-          "day": "2026-09-05"
-        },
-        {
-          "downloads": 3,
-          "day": "2026-09-06"
-        },
-        {
-          "downloads": 0,
-          "day": "2026-09-07"
-        },
-        {
-          "downloads": 0,
-          "day": "2026-09-08"
-        }
-      ],
-      "total": 150
+      "total": 157,
+      "sourceUrls": [
+        "https://api.npmjs.org/downloads/range/2026-06-03:2026-09-07/%40liushiyumathxjtu%2Fminimax-statusline"
+      ]
     },
     {
       "name": "lan-artifacts-pi",
       "account": "liushiyumathxjtu",
-      "color": "#b5a2ff",
+      "repository": "git+https://github.com/liush2yuxjtu/lan-artifacts-pi.git",
       "version": "0.1.0",
       "created": "2026-08-25",
       "status": "available",
@@ -655,18 +470,60 @@
         {
           "downloads": 0,
           "day": "2026-09-07"
+        }
+      ],
+      "total": 144,
+      "sourceUrls": [
+        "https://api.npmjs.org/downloads/range/2026-08-25:2026-09-07/lan-artifacts-pi"
+      ]
+    },
+    {
+      "name": "pi-debug-mode",
+      "account": "nyn5255",
+      "repository": "git+https://github.com/liush2yuxjtu/pi-debug-mode.git",
+      "version": "0.1.7",
+      "created": "2026-09-04",
+      "status": "available",
+      "downloads": [
+        {
+          "downloads": 387,
+          "day": "2026-09-04"
+        },
+        {
+          "downloads": 28,
+          "day": "2026-09-05"
+        },
+        {
+          "downloads": 6,
+          "day": "2026-09-06"
         },
         {
           "downloads": 0,
-          "day": "2026-09-08"
+          "day": "2026-09-07"
         }
       ],
-      "total": 144
+      "total": 421,
+      "sourceUrls": [
+        "https://api.npmjs.org/downloads/range/2026-09-04:2026-09-07/pi-debug-mode"
+      ]
+    },
+    {
+      "name": "pi-design-mode",
+      "account": "nyn5255",
+      "repository": "git+https://github.com/liush2yuxjtu/pi-design-mode.git",
+      "version": "0.1.0",
+      "created": "2026-09-07",
+      "status": "not-available",
+      "downloads": [],
+      "total": null,
+      "sourceUrls": [
+        "https://api.npmjs.org/downloads/range/2026-09-07:2026-09-07/pi-design-mode"
+      ]
     },
     {
       "name": "pi-qoder-account-provider",
       "account": "nyn5255",
-      "color": "#70a7ff",
+      "repository": "git+https://github.com/liush2yuxjtu/pi-qoder-account-provider.git",
       "version": "0.1.0",
       "created": "2026-09-02",
       "status": "available",
@@ -694,28 +551,129 @@
         {
           "downloads": 0,
           "day": "2026-09-07"
-        },
-        {
-          "downloads": 0,
-          "day": "2026-09-08"
         }
       ],
-      "total": 12
+      "total": 12,
+      "sourceUrls": [
+        "https://api.npmjs.org/downloads/range/2026-09-02:2026-09-07/pi-qoder-account-provider"
+      ]
     },
     {
-      "name": "pi-debug-mode",
-      "account": "nyn5255",
-      "color": "#f2e6c9",
-      "version": "0.1.7",
-      "created": "2026-09-04",
+      "name": "pi-strict-ask-mode",
+      "account": "liushiyumathxjtu",
+      "repository": "git+https://github.com/liush2yuxjtu/pi-strict-ask-mode.git",
+      "version": "0.1.0",
+      "created": "2026-08-31",
       "status": "available",
       "downloads": [
         {
-          "downloads": 387,
+          "downloads": 133,
+          "day": "2026-08-31"
+        },
+        {
+          "downloads": 11,
+          "day": "2026-09-01"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-02"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-03"
+        },
+        {
+          "downloads": 2,
           "day": "2026-09-04"
         },
         {
-          "downloads": 28,
+          "downloads": 1,
+          "day": "2026-09-05"
+        },
+        {
+          "downloads": 3,
+          "day": "2026-09-06"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-07"
+        }
+      ],
+      "total": 150,
+      "sourceUrls": [
+        "https://api.npmjs.org/downloads/range/2026-08-31:2026-09-07/pi-strict-ask-mode"
+      ]
+    },
+    {
+      "name": "pi-subtask",
+      "account": "liushiyumathxjtu",
+      "repository": "git+https://github.com/liush2yuxjtu/pi-subtask.git",
+      "version": "0.1.4",
+      "created": "2026-08-21",
+      "status": "available",
+      "downloads": [
+        {
+          "downloads": 455,
+          "day": "2026-08-21"
+        },
+        {
+          "downloads": 40,
+          "day": "2026-08-22"
+        },
+        {
+          "downloads": 13,
+          "day": "2026-08-23"
+        },
+        {
+          "downloads": 7,
+          "day": "2026-08-24"
+        },
+        {
+          "downloads": 1,
+          "day": "2026-08-25"
+        },
+        {
+          "downloads": 6,
+          "day": "2026-08-26"
+        },
+        {
+          "downloads": 2,
+          "day": "2026-08-27"
+        },
+        {
+          "downloads": 15,
+          "day": "2026-08-28"
+        },
+        {
+          "downloads": 10,
+          "day": "2026-08-29"
+        },
+        {
+          "downloads": 1,
+          "day": "2026-08-30"
+        },
+        {
+          "downloads": 150,
+          "day": "2026-08-31"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-01"
+        },
+        {
+          "downloads": 4,
+          "day": "2026-09-02"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-03"
+        },
+        {
+          "downloads": 2,
+          "day": "2026-09-04"
+        },
+        {
+          "downloads": 3,
           "day": "2026-09-05"
         },
         {
@@ -725,13 +683,62 @@
         {
           "downloads": 0,
           "day": "2026-09-07"
+        }
+      ],
+      "total": 715,
+      "sourceUrls": [
+        "https://api.npmjs.org/downloads/range/2026-08-21:2026-09-07/pi-subtask"
+      ]
+    },
+    {
+      "name": "pi-voice-mode",
+      "account": "liushiyumathxjtu",
+      "repository": "git+https://github.com/liush2yuxjtu/pi-voice-mode.git",
+      "version": "0.1.0",
+      "created": "2026-08-30",
+      "status": "available",
+      "downloads": [
+        {
+          "downloads": 160,
+          "day": "2026-08-30"
+        },
+        {
+          "downloads": 11,
+          "day": "2026-08-31"
+        },
+        {
+          "downloads": 6,
+          "day": "2026-09-01"
+        },
+        {
+          "downloads": 2,
+          "day": "2026-09-02"
         },
         {
           "downloads": 0,
-          "day": "2026-09-08"
+          "day": "2026-09-03"
+        },
+        {
+          "downloads": 2,
+          "day": "2026-09-04"
+        },
+        {
+          "downloads": 3,
+          "day": "2026-09-05"
+        },
+        {
+          "downloads": 3,
+          "day": "2026-09-06"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-07"
         }
       ],
-      "total": 421
+      "total": 187,
+      "sourceUrls": [
+        "https://api.npmjs.org/downloads/range/2026-08-30:2026-09-07/pi-voice-mode"
+      ]
     }
   ]
 }
