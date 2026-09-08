@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T08:23:52+00:00",
+  "updatedAt": "2026-09-08T08:09:19+00:00",
   "source": "https://api.npmjs.org/downloads/range/",
   "knownTotal": 1786,
   "complete": true,
@@ -83,6 +83,10 @@
         {
           "downloads": 0,
           "day": "2026-09-07"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-08"
         }
       ],
       "total": 715
@@ -130,6 +134,10 @@
         {
           "downloads": 0,
           "day": "2026-09-07"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-08"
         }
       ],
       "total": 187
@@ -529,6 +537,10 @@
         {
           "downloads": 0,
           "day": "2026-09-07"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-08"
         }
       ],
       "total": 157
@@ -572,6 +584,10 @@
         {
           "downloads": 0,
           "day": "2026-09-07"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-08"
         }
       ],
       "total": 150
@@ -639,6 +655,10 @@
         {
           "downloads": 0,
           "day": "2026-09-07"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-08"
         }
       ],
       "total": 144
@@ -674,6 +694,10 @@
         {
           "downloads": 0,
           "day": "2026-09-07"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-08"
         }
       ],
       "total": 12
@@ -701,6 +725,10 @@
         {
           "downloads": 0,
           "day": "2026-09-07"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-08"
         }
       ],
       "total": 421
