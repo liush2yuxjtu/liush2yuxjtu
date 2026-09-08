@@ -34,7 +34,10 @@ class DownloadsTest(unittest.TestCase):
         self.assertEqual(daily, [None, 0])
 
     def test_cutoff_is_yesterday_utc(self):
-        self.assertEqual(chart.CUTOFF, dt.datetime.now(dt.timezone.utc).date() - dt.timedelta(days=1))
+        self.assertEqual(chart.cutoff_date(dt.datetime(2026, 9, 8, tzinfo=dt.timezone.utc)), dt.date(2026, 9, 7))
+        self.assertEqual(chart.cutoff_date(dt.datetime.fromisoformat('2026-09-08T01:00:00+08:00')), dt.date(2026, 9, 6))
+        with self.assertRaises(ValueError):
+            chart.cutoff_date(dt.datetime(2026, 9, 8))
 
     def test_registry_discovery_includes_new_package(self):
         def fake(url):

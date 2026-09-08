@@ -13,7 +13,13 @@ from render_curve import render
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / 'data/npm-downloads.json'
 SVG_PATH = ROOT / 'assets/npm-downloads.svg'
-CUTOFF = dt.datetime.now(dt.timezone.utc).date() - dt.timedelta(days=1)
+def cutoff_date(now: dt.datetime) -> dt.date:
+    if now.tzinfo is None:
+        raise ValueError('An explicit timezone is required')
+    return now.astimezone(dt.timezone.utc).date() - dt.timedelta(days=1)
+
+
+CUTOFF = cutoff_date(dt.datetime.now(dt.timezone.utc))
 ACCOUNTS = ['liushiyumathxjtu', 'nyn5255']
 
 
