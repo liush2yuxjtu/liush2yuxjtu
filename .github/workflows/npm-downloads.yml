@@ -18,6 +18,8 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v6
+      - name: Verify chart semantics
+        run: python3 -m unittest discover -s tests
       - name: Fetch official npm data and render SVG
         run: python3 scripts/update_npm_downloads.py
       - name: Commit changed data
