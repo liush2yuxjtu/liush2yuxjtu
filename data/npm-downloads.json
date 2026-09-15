@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-14T09:00:33+00:00",
-  "cutoffDate": "2026-09-13",
+  "updatedAt": "2026-09-15T08:45:13+00:00",
+  "cutoffDate": "2026-09-14",
   "source": "https://api.npmjs.org/downloads/range/",
   "knownTotal": 2612,
   "complete": false,
@@ -424,11 +424,15 @@
         {
           "downloads": 0,
           "day": "2026-09-13"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-14"
         }
       ],
       "total": 164,
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-06-03:2026-09-13/%40liushiyumathxjtu%2Fminimax-statusline"
+        "https://api.npmjs.org/downloads/range/2026-06-03:2026-09-14/%40liushiyumathxjtu%2Fminimax-statusline"
       ]
     },
     {
@@ -440,7 +444,9 @@
       "status": "not-available",
       "downloads": [],
       "total": null,
-      "sourceUrls": []
+      "sourceUrls": [
+        "https://api.npmjs.org/downloads/range/2026-09-14:2026-09-14/%40nyn5255%2Ftelemetry"
+      ]
     },
     {
       "name": "lan-artifacts-pi",
@@ -529,11 +535,15 @@
         {
           "downloads": 0,
           "day": "2026-09-13"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-14"
         }
       ],
       "total": 148,
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-08-25:2026-09-13/lan-artifacts-pi"
+        "https://api.npmjs.org/downloads/range/2026-08-25:2026-09-14/lan-artifacts-pi"
       ]
     },
     {
@@ -583,11 +593,15 @@
         {
           "downloads": 3,
           "day": "2026-09-13"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-14"
         }
       ],
       "total": 475,
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-09-04:2026-09-13/pi-debug-mode"
+        "https://api.npmjs.org/downloads/range/2026-09-04:2026-09-14/pi-debug-mode"
       ]
     },
     {
@@ -625,11 +639,15 @@
         {
           "downloads": 10,
           "day": "2026-09-13"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-14"
         }
       ],
       "total": 711,
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-09-07:2026-09-13/pi-design-mode"
+        "https://api.npmjs.org/downloads/range/2026-09-07:2026-09-14/pi-design-mode"
       ]
     },
     {
@@ -687,11 +705,15 @@
         {
           "downloads": 0,
           "day": "2026-09-13"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-14"
         }
       ],
       "total": 16,
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-09-02:2026-09-13/pi-qoder-account-provider"
+        "https://api.npmjs.org/downloads/range/2026-09-02:2026-09-14/pi-qoder-account-provider"
       ]
     },
     {
@@ -757,11 +779,15 @@
         {
           "downloads": 0,
           "day": "2026-09-13"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-14"
         }
       ],
       "total": 156,
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-08-31:2026-09-13/pi-strict-ask-mode"
+        "https://api.npmjs.org/downloads/range/2026-08-31:2026-09-14/pi-strict-ask-mode"
       ]
     },
     {
@@ -867,11 +893,15 @@
         {
           "downloads": 15,
           "day": "2026-09-13"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-14"
         }
       ],
       "total": 752,
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-08-21:2026-09-13/pi-subtask"
+        "https://api.npmjs.org/downloads/range/2026-08-21:2026-09-14/pi-subtask"
       ]
     },
     {
@@ -941,11 +971,15 @@
         {
           "downloads": 0,
           "day": "2026-09-13"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-14"
         }
       ],
       "total": 190,
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-08-30:2026-09-13/pi-voice-mode"
+        "https://api.npmjs.org/downloads/range/2026-08-30:2026-09-14/pi-voice-mode"
       ]
     }
   ]
