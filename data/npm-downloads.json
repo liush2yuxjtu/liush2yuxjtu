@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-16T08:39:22+00:00",
-  "cutoffDate": "2026-09-15",
+  "updatedAt": "2026-09-17T08:43:05+00:00",
+  "cutoffDate": "2026-09-16",
   "source": "https://api.npmjs.org/downloads/range/",
   "knownTotal": 3223,
   "complete": true,
@@ -432,11 +432,15 @@
         {
           "downloads": 0,
           "day": "2026-09-15"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-16"
         }
       ],
       "total": 164,
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-06-03:2026-09-15/%40liushiyumathxjtu%2Fminimax-statusline"
+        "https://api.npmjs.org/downloads/range/2026-06-03:2026-09-16/%40liushiyumathxjtu%2Fminimax-statusline"
       ]
     },
     {
@@ -454,11 +458,15 @@
         {
           "downloads": 0,
           "day": "2026-09-15"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-16"
         }
       ],
       "total": 0,
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-09-14:2026-09-15/%40nyn5255%2Ftelemetry"
+        "https://api.npmjs.org/downloads/range/2026-09-14:2026-09-16/%40nyn5255%2Ftelemetry"
       ]
     },
     {
@@ -556,11 +564,15 @@
         {
           "downloads": 0,
           "day": "2026-09-15"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-16"
         }
       ],
       "total": 149,
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-08-25:2026-09-15/lan-artifacts-pi"
+        "https://api.npmjs.org/downloads/range/2026-08-25:2026-09-16/lan-artifacts-pi"
       ]
     },
     {
@@ -618,11 +630,15 @@
         {
           "downloads": 0,
           "day": "2026-09-15"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-16"
         }
       ],
       "total": 775,
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-09-04:2026-09-15/pi-debug-mode"
+        "https://api.npmjs.org/downloads/range/2026-09-04:2026-09-16/pi-debug-mode"
       ]
     },
     {
@@ -668,11 +684,15 @@
         {
           "downloads": 0,
           "day": "2026-09-15"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-16"
         }
       ],
       "total": 861,
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-09-07:2026-09-15/pi-design-mode"
+        "https://api.npmjs.org/downloads/range/2026-09-07:2026-09-16/pi-design-mode"
       ]
     },
     {
@@ -738,11 +758,15 @@
         {
           "downloads": 0,
           "day": "2026-09-15"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-16"
         }
       ],
       "total": 170,
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-09-02:2026-09-15/pi-qoder-account-provider"
+        "https://api.npmjs.org/downloads/range/2026-09-02:2026-09-16/pi-qoder-account-provider"
       ]
     },
     {
@@ -816,11 +840,15 @@
         {
           "downloads": 0,
           "day": "2026-09-15"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-16"
         }
       ],
       "total": 156,
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-08-31:2026-09-15/pi-strict-ask-mode"
+        "https://api.npmjs.org/downloads/range/2026-08-31:2026-09-16/pi-strict-ask-mode"
       ]
     },
     {
@@ -934,11 +962,15 @@
         {
           "downloads": 0,
           "day": "2026-09-15"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-16"
         }
       ],
       "total": 756,
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-08-21:2026-09-15/pi-subtask"
+        "https://api.npmjs.org/downloads/range/2026-08-21:2026-09-16/pi-subtask"
       ]
     },
     {
@@ -1016,11 +1048,15 @@
         {
           "downloads": 0,
           "day": "2026-09-15"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-09-16"
         }
       ],
       "total": 192,
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-08-30:2026-09-15/pi-voice-mode"
+        "https://api.npmjs.org/downloads/range/2026-08-30:2026-09-16/pi-voice-mode"
       ]
     }
   ]
