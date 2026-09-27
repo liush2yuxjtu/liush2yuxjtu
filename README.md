@@ -14,6 +14,7 @@ npm API -> verified daily data -> download chart
 - 累计值从各包首次发布起计算；最近 30 天严格包含截止日在内的 30 个日期，不等同于 npm 的 `last-month` 相对区间。
 - `N/A` / 待统计表示数据未提供或不完整，不当作零；不完整包不纳入已知合计。
 - 从两个 npm 账号自动发现包，并核对 GitHub repository 归属；下载包含重复安装与 CI，不是独立用户数。
+- `organic.estimatedOrganic` 是去掉发版峰值后的估算：每个版本发布当天和次日是镜像站 / 安全扫描器集中抓包的窗口，这些天按该包非发版日的日中位数封顶，其余天原样计入。它仍包含自己和 CI 的安装，只是更接近真实使用的下界参考；真实使用漏斗见 telemetry 的 `?audience=likely_human`。
 
 ## Public npm packages
 
