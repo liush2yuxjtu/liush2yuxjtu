@@ -87,9 +87,44 @@ def package_data(package: dict) -> dict:
     expected = date_range(dt.date.fromisoformat(created), CUTOFF)
     complete = available and bool(expected) and set(by_date) == set(expected)
     status = 'available' if complete else ('partial' if downloads else 'not-available')
+    ordered = sorted(downloads, key=lambda d: d['day'])
+    estimate = organic_estimate(ordered, release_days(metadata['time'])) if complete else None
     return {**package, 'version': metadata.get('dist-tags', {}).get('latest'), 'created': created,
-            'status': status, 'downloads': sorted(downloads, key=lambda d: d['day']),
-            'total': sum(by_date.values()) if complete else None, 'sourceUrls': urls}
+            'status': status, 'downloads': ordered,
+            'total': sum(by_date.values()) if complete else None,
+            'organic': estimate, 'sourceUrls': urls}
+
+
+def release_days(metadata_time: dict) -> list[str]:
+    """Publish date and the following day of every version (UTC)."""
+    days = set()
+    for key, stamp in metadata_time.items():
+        if key in ('created', 'modified'):
+            continue
+        day = dt.date.fromisoformat(stamp[:10])
+        days.update({str(day), str(day + dt.timedelta(days=1))})
+    return sorted(days)
+
+
+def organic_estimate(downloads: list[dict], releases: list[str]) -> dict:
+    """Estimate downloads without publish-day mirror/scanner spikes.
+
+    Registry mirrors and security scanners fetch every new version, so publish
+    days spike far above normal. Each release-window day is capped at the median
+    of the package's non-release days; other days count as-is. This still
+    includes the owner's own and CI installs: npm exposes no source data.
+    """
+    window = set(releases)
+    quiet = sorted(d['downloads'] for d in downloads if d['day'] not in window)
+    if quiet:
+        mid = len(quiet) // 2
+        baseline = quiet[mid] if len(quiet) % 2 else (quiet[mid - 1] + quiet[mid]) / 2
+    else:
+        baseline = 0
+    organic = sum(min(d['downloads'], baseline) if d['day'] in window else d['downloads'] for d in downloads)
+    total = sum(d['downloads'] for d in downloads)
+    return {'estimatedOrganic': round(organic), 'releaseSpikeExcluded': total - round(organic),
+            'quietDayMedian': baseline, 'releaseWindowDays': sorted(window & {d['day'] for d in downloads})}
 
 
 def aligned_series(record: dict, dates: list[str]) -> tuple[list, list]:
@@ -124,13 +159,14 @@ def main() -> None:
     payload = {'updatedAt': dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
                'cutoffDate': str(CUTOFF), 'source': 'https://api.npmjs.org/downloads/range/',
                'knownTotal': sum(r['total'] for r in records if r['status'] == 'available'),
+               'knownOrganicEstimate': sum(r['organic']['estimatedOrganic'] for r in records if r['status'] == 'available'),
                'complete': all(r['status'] == 'available' for r in records), 'packages': records}
     svg = render_svg(records)
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     SVG_PATH.parent.mkdir(parents=True, exist_ok=True)
     DATA_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n')
     SVG_PATH.write_text(svg)
-    print(json.dumps({'knownTotal': payload['knownTotal'], 'complete': payload['complete'], 'packages': len(records)}))
+    print(json.dumps({'knownTotal': payload['knownTotal'], 'knownOrganicEstimate': payload['knownOrganicEstimate'], 'complete': payload['complete'], 'packages': len(records)}))
 
 
 if __name__ == '__main__':

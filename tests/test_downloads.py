@@ -82,5 +82,24 @@ class DownloadsTest(unittest.TestCase):
         self.assertIn('>N/A</text>', svg)
 
 
+    def test_release_days_cover_publish_day_and_next(self):
+        days = chart.release_days({'created': '2026-09-04T06:00:00Z', 'modified': '2026-09-26T00:00:00Z',
+                                   '0.1.0': '2026-09-04T06:19:00Z', '0.1.1': '2026-09-04T08:00:00Z', '0.2.0': '2026-09-14T05:36:00Z'})
+        self.assertEqual(days, ['2026-09-04', '2026-09-05', '2026-09-14', '2026-09-15'])
+
+    def test_organic_estimate_caps_release_spikes_at_quiet_median(self):
+        days = [{'day': f'2026-09-{n:02d}', 'downloads': v} for n, v in
+                [(1, 300), (2, 20), (3, 10), (4, 12), (5, 8), (6, 250), (7, 4)]]
+        estimate = chart.organic_estimate(days, ['2026-09-01', '2026-09-02', '2026-09-06', '2026-09-07'])
+        # quiet days 10, 12, 8 -> median 10; window days capped: 10 + 10 + 10 + 4
+        self.assertEqual(estimate['quietDayMedian'], 10)
+        self.assertEqual(estimate['estimatedOrganic'], 10 + 10 + 10 + 12 + 8 + 10 + 4)
+        self.assertEqual(estimate['releaseSpikeExcluded'], 604 - 64)
+
+    def test_organic_estimate_without_quiet_days_is_zero_not_raw(self):
+        days = [{'day': '2026-09-01', 'downloads': 300}]
+        self.assertEqual(chart.organic_estimate(days, ['2026-09-01'])['estimatedOrganic'], 0)
+
+
 if __name__ == '__main__':
     unittest.main()
