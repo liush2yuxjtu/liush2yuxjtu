@@ -3,7 +3,18 @@ npm API -> verified daily data -> download chart
 ```
 # 刘师宇
 
+Building practical Pi coding-agent extensions, Claude / Agent Skills, and local-first automation.
+
 构建实用的 Pi 扩展、编程 Agent 工具与本地优先的自动化流程。
+
+## Featured repositories
+
+| Repo | What it is |
+| --- | --- |
+| [atelier](https://github.com/liush2yuxjtu/atelier) | Open-source Claude Design / Artifacts alternative — chat + infinite multi-artboard canvas |
+| [pi-debug-mode](https://github.com/liush2yuxjtu/pi-debug-mode) | Cursor-style evidence-first Debug Mode for the Pi coding agent |
+| [html-artifacts](https://github.com/liush2yuxjtu/html-artifacts) | Claude Code skill: self-contained interactive HTML artifacts |
+| [my-release-skills](https://github.com/liush2yuxjtu/my-release-skills) | AI release automation Agent Skills for Claude Code & Codex |
 
 ## npm 下载曲线
 
