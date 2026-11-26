@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-25T13:03:27+00:00",
-  "cutoffDate": "2026-11-24",
+  "updatedAt": "2026-11-26T12:43:46+00:00",
+  "cutoffDate": "2026-11-25",
   "source": "https://api.npmjs.org/downloads/range/",
-  "knownTotal": 7885,
-  "knownOrganicEstimate": 2401,
+  "knownTotal": 7941,
+  "knownOrganicEstimate": 2454,
   "complete": true,
   "packages": [
     {
@@ -713,20 +713,24 @@
         {
           "downloads": 4,
           "day": "2026-11-24"
+        },
+        {
+          "downloads": 4,
+          "day": "2026-11-25"
         }
       ],
-      "total": 277,
+      "total": 281,
       "organic": {
-        "estimatedOrganic": 201,
+        "estimatedOrganic": 205,
         "releaseSpikeExcluded": 76,
-        "quietDayMedian": 1,
+        "quietDayMedian": 1.0,
         "releaseWindowDays": [
           "2026-06-03",
           "2026-06-04"
         ]
       },
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-06-03:2026-11-24/%40liushiyumathxjtu%2Fminimax-statusline"
+        "https://api.npmjs.org/downloads/range/2026-06-03:2026-11-25/%40liushiyumathxjtu%2Fminimax-statusline"
       ]
     },
     {
@@ -1024,13 +1028,17 @@
         {
           "downloads": 1,
           "day": "2026-11-24"
+        },
+        {
+          "downloads": 5,
+          "day": "2026-11-25"
         }
       ],
-      "total": 923,
+      "total": 928,
       "organic": {
-        "estimatedOrganic": 238,
+        "estimatedOrganic": 243,
         "releaseSpikeExcluded": 685,
-        "quietDayMedian": 3.0,
+        "quietDayMedian": 3,
         "releaseWindowDays": [
           "2026-09-14",
           "2026-09-15",
@@ -1039,7 +1047,7 @@
         ]
       },
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-09-14:2026-11-24/%40nyn5255%2Ftelemetry"
+        "https://api.npmjs.org/downloads/range/2026-09-14:2026-11-25/%40nyn5255%2Ftelemetry"
       ]
     },
     {
@@ -1109,20 +1117,24 @@
         {
           "downloads": 20,
           "day": "2026-11-24"
+        },
+        {
+          "downloads": 18,
+          "day": "2026-11-25"
         }
       ],
-      "total": 703,
+      "total": 721,
       "organic": {
-        "estimatedOrganic": 199,
-        "releaseSpikeExcluded": 504,
-        "quietDayMedian": 15,
+        "estimatedOrganic": 218,
+        "releaseSpikeExcluded": 503,
+        "quietDayMedian": 15.5,
         "releaseWindowDays": [
           "2026-11-10",
           "2026-11-11"
         ]
       },
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-11-10:2026-11-24/dsh-sidebar-history"
+        "https://api.npmjs.org/downloads/range/2026-11-10:2026-11-25/dsh-sidebar-history"
       ]
     },
     {
@@ -1500,20 +1512,24 @@
         {
           "downloads": 1,
           "day": "2026-11-24"
+        },
+        {
+          "downloads": 3,
+          "day": "2026-11-25"
         }
       ],
-      "total": 265,
+      "total": 268,
       "organic": {
-        "estimatedOrganic": 151,
+        "estimatedOrganic": 154,
         "releaseSpikeExcluded": 114,
-        "quietDayMedian": 1.0,
+        "quietDayMedian": 1,
         "releaseWindowDays": [
           "2026-08-25",
           "2026-08-26"
         ]
       },
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-08-25:2026-11-24/lan-artifacts-pi"
+        "https://api.npmjs.org/downloads/range/2026-08-25:2026-11-25/lan-artifacts-pi"
       ]
     },
     {
@@ -1851,13 +1867,17 @@
         {
           "downloads": 3,
           "day": "2026-11-24"
+        },
+        {
+          "downloads": 4,
+          "day": "2026-11-25"
         }
       ],
-      "total": 2209,
+      "total": 2213,
       "organic": {
         "estimatedOrganic": 480,
-        "releaseSpikeExcluded": 1729,
-        "quietDayMedian": 4.5,
+        "releaseSpikeExcluded": 1733,
+        "quietDayMedian": 4,
         "releaseWindowDays": [
           "2026-09-04",
           "2026-09-05",
@@ -1870,7 +1890,7 @@
         ]
       },
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-09-04:2026-11-24/pi-debug-mode"
+        "https://api.npmjs.org/downloads/range/2026-09-04:2026-11-25/pi-debug-mode"
       ]
     },
     {
@@ -2196,13 +2216,17 @@
         {
           "downloads": 1,
           "day": "2026-11-24"
+        },
+        {
+          "downloads": 4,
+          "day": "2026-11-25"
         }
       ],
-      "total": 1488,
+      "total": 1492,
       "organic": {
-        "estimatedOrganic": 338,
+        "estimatedOrganic": 342,
         "releaseSpikeExcluded": 1150,
-        "quietDayMedian": 3.0,
+        "quietDayMedian": 3,
         "releaseWindowDays": [
           "2026-09-07",
           "2026-09-08",
@@ -2216,7 +2240,7 @@
         ]
       },
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-09-07:2026-11-24/pi-design-mode"
+        "https://api.npmjs.org/downloads/range/2026-09-07:2026-11-25/pi-design-mode"
       ]
     },
     {
@@ -2562,13 +2586,17 @@
         {
           "downloads": 4,
           "day": "2026-11-24"
+        },
+        {
+          "downloads": 8,
+          "day": "2026-11-25"
         }
       ],
-      "total": 546,
+      "total": 554,
       "organic": {
-        "estimatedOrganic": 279,
+        "estimatedOrganic": 287,
         "releaseSpikeExcluded": 267,
-        "quietDayMedian": 3.0,
+        "quietDayMedian": 3,
         "releaseWindowDays": [
           "2026-09-02",
           "2026-09-03",
@@ -2577,7 +2605,7 @@
         ]
       },
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-09-02:2026-11-24/pi-qoder-account-provider"
+        "https://api.npmjs.org/downloads/range/2026-09-02:2026-11-25/pi-qoder-account-provider"
       ]
     },
     {
@@ -2931,20 +2959,24 @@
         {
           "downloads": 1,
           "day": "2026-11-24"
+        },
+        {
+          "downloads": 3,
+          "day": "2026-11-25"
         }
       ],
-      "total": 256,
+      "total": 259,
       "organic": {
-        "estimatedOrganic": 114,
+        "estimatedOrganic": 117,
         "releaseSpikeExcluded": 142,
-        "quietDayMedian": 1.0,
+        "quietDayMedian": 1,
         "releaseWindowDays": [
           "2026-08-31",
           "2026-09-01"
         ]
       },
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-08-31:2026-11-24/pi-strict-ask-mode"
+        "https://api.npmjs.org/downloads/range/2026-08-31:2026-11-25/pi-strict-ask-mode"
       ]
     },
     {
@@ -3338,13 +3370,17 @@
         {
           "downloads": 2,
           "day": "2026-11-24"
+        },
+        {
+          "downloads": 3,
+          "day": "2026-11-25"
         }
       ],
-      "total": 938,
+      "total": 941,
       "organic": {
-        "estimatedOrganic": 290,
+        "estimatedOrganic": 293,
         "releaseSpikeExcluded": 648,
-        "quietDayMedian": 2.0,
+        "quietDayMedian": 2,
         "releaseWindowDays": [
           "2026-08-21",
           "2026-08-22",
@@ -3353,7 +3389,7 @@
         ]
       },
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-08-21:2026-11-24/pi-subtask"
+        "https://api.npmjs.org/downloads/range/2026-08-21:2026-11-25/pi-subtask"
       ]
     },
     {
@@ -3711,20 +3747,24 @@
         {
           "downloads": 3,
           "day": "2026-11-24"
+        },
+        {
+          "downloads": 4,
+          "day": "2026-11-25"
         }
       ],
-      "total": 280,
+      "total": 284,
       "organic": {
-        "estimatedOrganic": 111,
+        "estimatedOrganic": 115,
         "releaseSpikeExcluded": 169,
-        "quietDayMedian": 1,
+        "quietDayMedian": 1.0,
         "releaseWindowDays": [
           "2026-08-30",
           "2026-08-31"
         ]
       },
       "sourceUrls": [
-        "https://api.npmjs.org/downloads/range/2026-08-30:2026-11-24/pi-voice-mode"
+        "https://api.npmjs.org/downloads/range/2026-08-30:2026-11-25/pi-voice-mode"
       ]
     }
   ]
